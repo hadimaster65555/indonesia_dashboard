@@ -1,0 +1,28 @@
+services:
+  dashboard:
+    build: .
+    image: indonesia-governance-dashboard:local
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: /app/data/indonesia_dashboard.sqlite
+      NODE_ENV: production
+    ports:
+      - "3000:3000"
+    volumes:
+      - dashboard-data:/app/data
+    command: ["app"]
+
+  worker:
+    image: indonesia-governance-dashboard:local
+    restart: unless-stopped
+    depends_on:
+      - dashboard
+    environment:
+      DATABASE_URL: /app/data/indonesia_dashboard.sqlite
+      NODE_ENV: production
+    volumes:
+      - dashboard-data:/app/data
+    command: ["worker"]
+
+volumes:
+  dashboard-data:

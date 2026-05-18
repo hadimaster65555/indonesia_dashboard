@@ -1,0 +1,9 @@
+{
+  "source": "BMKG",
+  "period": "2026-05",
+  "warningCount": 7,
+  "earthquakeCount": 3,
+  "forecasts": [
+    { "adm4": "31.71.01.1001", "interval": "2026-05-17T09:00:00+07:00", "weather": "rain" }
+  ]
+}

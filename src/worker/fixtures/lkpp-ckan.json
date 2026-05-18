@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "result": {
+    "count": 2,
+    "results": [
+      { "name": "tender-1", "award_value": "1250000000000" },
+      { "name": "tender-2", "award_value": "750000000000" }
+    ]
+  }
+}

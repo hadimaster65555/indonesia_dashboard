@@ -1,0 +1,3 @@
+metric_key,geography_code,period_start,period_end,value,unit,quality_flag
+stunting_prevalence,ID,2026-04-01,2026-04-30,"19,6",% children,official
+regional_budget_absorption,32,2026-04-01,2026-04-30,64.1,%,official

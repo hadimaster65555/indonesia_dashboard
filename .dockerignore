@@ -1,0 +1,11 @@
+node_modules
+dist
+.vinxi
+.output
+data
+playwright-report
+test-results
+.DS_Store
+.env
+.env.local
+*.log

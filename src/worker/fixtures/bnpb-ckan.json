@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "result": {
+    "count": 42,
+    "results": [
+      { "name": "banjir-jawa-barat" },
+      { "name": "longsor-sulawesi-selatan" }
+    ]
+  }
+}
