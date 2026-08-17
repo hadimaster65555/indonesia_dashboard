@@ -14,6 +14,22 @@ A TanStack Start dashboard for monitoring Indonesian public governance signals f
 - Source Health: last run, parser type, rows inserted, freshness status, stale-source detection, and official attribution links.
 - Data credibility layer: raw snapshots, checksums, scrape runs, parser status, quality flags, source URLs, and transformation notes.
 
+## Screenshots
+
+The gallery below was captured from the local app with the seeded demo warehouse.
+
+| Daily Brief | Economy |
+|---|---|
+| ![Daily Brief](docs/screenshots/daily-brief.png) | ![Economy](docs/screenshots/economy.png) |
+
+| Regional Intervention Ranking | Disaster & Climate |
+|---|---|
+| ![Regions](docs/screenshots/regions.png) | ![Disaster & Climate](docs/screenshots/disaster-climate.png) |
+
+| Source Health | Responsive Daily Brief |
+|---|---|
+| ![Source Health](docs/screenshots/source-health.png) | ![Responsive Daily Brief](docs/screenshots/daily-brief-mobile.png) |
+
 ## Architecture
 
 - Frontend/full-stack: TanStack Start, TanStack Router, TanStack Query, React, TypeScript, Tailwind CSS, Recharts, TanStack Table.
